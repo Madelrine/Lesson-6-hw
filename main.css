@@ -3,7 +3,11 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-
+form{
+	background-color: #e5eae9;
+	padding: 10px;
+	width: 600px;
+}
 label,
 input{
 	display: block;
@@ -24,4 +28,8 @@ form{
 label{
 	margin-bottom: 5px;
 	margin-top: 5px;
+}
+.algn{
+	margin-top: 0;
+	margin-left: 3px;
 }
