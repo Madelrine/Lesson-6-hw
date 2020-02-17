@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="	main.css">
+	<title>	</title>
+</head>
+<body>
+		<form action="">
+		<label for="fname" >Your Name (required)</label>
+		<input type="text" id="fname" name="fname" required>
+		<label for="email">Your Email (required)</label>
+		<input type="email" id="email" name="email" required>
+
+		<label for="checkbox" >What's this all about?</label>
+		<input type="checkbox" id="check1" name="check1" class="lft-fl mg-t">
+	 	<label for="check1" class="lft-fl">Say Hello</label>
+		<input type="checkbox" id="check2" name="check2" class="lft-fl mg-t clr">
+		<label for="check2" class="lft-fl">Complain</label>
+		<input type="checkbox" id="check3" name="check3" class="lft-fl mg-t clr">
+		<label for="check3" class="lft-fl">Share a joke</label>
+
+		<label for="gamecenter" class="clr">Subject</label>
+		<select name="gamecenter" id="gamecenter">
+			<option value="" placeholder>Please select</option>
+			<optgroup label="Action (FPS)">
+				<option value="FPS">Call of Duty: WWII</option>
+				<option value="FPS">Halo: The Master Chief Collection</option>
+				<option value="FPS">Sniper Ghost Warrior Contracts</option>
+			</optgroup>
+			<optgroup label="RPG">
+				<option value="RPG">Wolcen: Lords of Mayhem</option>
+				<option value="RPG">Fallout 4</option>
+				<option value="RPG">Assassin's Creed: Origins</option>
+			</optgroup>
+			<optgroup label="Racing">
+				<option value="Racing">Need for Speed: Heat </option>
+				<option value="Racing">Forza Horizon 4</option>
+				<option value="Racing">Euro Truck Simulator 2 </option>
+			</optgroup>
+		</select>
+		<label for="ymessage">Your Message</label>
+		<textarea name="ymessage" id="ymessage" cols="60" rows="10"></textarea>
+
+		<input type="submit" value="SEND">
+	</form>
+</body>
+</html>
